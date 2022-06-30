@@ -17,8 +17,8 @@
 <distributionManagement>
    <repository>
     <id>internal.repo</id>
-    <name>Internal Repo</name>
-    <url>file:///var/lib/jenkins/batch448Artifacts</url> 
+    <name>Internal repo</name>
+    <url>file:///var/lib/jenkins/batch448Artifacts/</url> 
   </repository>
   <repository>
     <id>releases</id>
