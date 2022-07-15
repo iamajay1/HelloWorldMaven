@@ -15,15 +15,13 @@
   </properties>
   
   <distributionManagement>
-                                <repository>
-                                    <id>internal.repo</id>
-                                    <name>Internal repo</name>
-                                    <url>file:/var/lib/jenkins/HelloWorldMavenArtifacts/</url>
-                                </repository>                            
-                          </distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-28-135.ec2.internal-releases</name>
+        <url>http://174.129.83.172:8081/artifactory/libs-release-local</url>
+    </repository>
+</distributionManagement>
   
-  
-
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
