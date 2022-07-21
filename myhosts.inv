@@ -1,0 +1,2 @@
+[webserver-app]
+54.208.33.150 ansible_user=ubuntu
