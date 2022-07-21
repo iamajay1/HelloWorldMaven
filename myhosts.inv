@@ -1,2 +1,2 @@
 [webserver-app]
-3.82.215.127 ansible_user=ubuntu
+172.31.89.11 ansible_user=ubuntu
